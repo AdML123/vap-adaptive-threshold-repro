@@ -12,7 +12,7 @@ authors:
   - family-names: Tao
     given-names: Xiaoying
     orcid: "https://orcid.org/0009-0009-9231-2629"
-version: 0.1.1
+version: 0.1.2
 date-released: 2026-08-25
 license: MIT
 keywords:
