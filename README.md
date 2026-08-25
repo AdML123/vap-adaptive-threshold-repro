@@ -54,10 +54,10 @@ require the restricted source data for inspection.
 
 ## Citation and release
 
-Please cite the repository using CITATION.cff. The current public release is
-tagged v0.1.2. A Zenodo DOI will be added to
-this file and to the README only after the GitHub release has been archived by
-Zenodo. No DOI is claimed before that archive step.
+The v0.1.3 public release is archived at Zenodo DOI
+https://doi.org/10.5281/zenodo.22096434. The public package intentionally
+excludes manuscript files, author metadata, credentials, restricted source
+data, and pretrained checkpoints.
 
 ## License
 
