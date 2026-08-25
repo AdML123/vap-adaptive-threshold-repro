@@ -1,0 +1,440 @@
+{
+  "archetype": "quantitative_grid",
+  "backend": "matplotlib_agg",
+  "figure_1": {
+    "rows": [
+      {
+        "D_k": "0.3098757483784222",
+        "D_k_coex": "0.4205236864102016",
+        "D_k_dom": "0.21912293428783253",
+        "E_k": "70753",
+        "E_k_coex": "43266",
+        "E_k_dom": "27487",
+        "N_k": "228327",
+        "N_k_coex": "102886",
+        "N_k_dom": "125441",
+        "bin_k": "1",
+        "split": "test",
+        "variant": "median_laughter_voiced"
+      },
+      {
+        "D_k": "0.4472273225609736",
+        "D_k_coex": "0.620149517032027",
+        "D_k_dom": "0.27390706736415077",
+        "E_k": "134208",
+        "E_k_coex": "93157",
+        "E_k_dom": "41051",
+        "N_k": "300089",
+        "N_k_coex": "150217",
+        "N_k_dom": "149872",
+        "bin_k": "2",
+        "split": "test",
+        "variant": "median_laughter_voiced"
+      },
+      {
+        "D_k": "0.5523712062047236",
+        "D_k_coex": "0.7326964997953375",
+        "D_k_dom": "0.31738283672811174",
+        "E_k": "205112",
+        "E_k_coex": "153941",
+        "E_k_dom": "51171",
+        "N_k": "371330",
+        "N_k_coex": "210102",
+        "N_k_dom": "161228",
+        "bin_k": "3",
+        "split": "test",
+        "variant": "median_laughter_voiced"
+      },
+      {
+        "D_k": "0.6707864838016967",
+        "D_k_coex": "0.8289577763222414",
+        "D_k_dom": "0.39889624452429",
+        "E_k": "296440",
+        "E_k_coex": "231605",
+        "E_k_dom": "64835",
+        "N_k": "441929",
+        "N_k_coex": "279393",
+        "N_k_dom": "162536",
+        "bin_k": "4",
+        "split": "test",
+        "variant": "median_laughter_voiced"
+      }
+    ],
+    "source": "experiments/bc_erase/results/summary.csv",
+    "split": "test",
+    "variant": "median_laughter_voiced"
+  },
+  "figure_2": {
+    "series": {
+      "adaptive forward": [
+        {
+          "epoch": 0.0,
+          "step": 157.0,
+          "val_loss": 3.0951120853424072,
+          "val_softmax_entropy": 3.8350305557250977,
+          "val_target_entropy": 5.56056022644043,
+          "val_unseen_states": 2.6626086235046387,
+          "val_vap_loss": 3.0951120853424072
+        },
+        {
+          "epoch": 1.0,
+          "step": 315.0,
+          "val_loss": 2.975219488143921,
+          "val_softmax_entropy": 3.915782928466797,
+          "val_target_entropy": 5.56056022644043,
+          "val_unseen_states": 2.6626086235046387,
+          "val_vap_loss": 2.975219488143921
+        },
+        {
+          "epoch": 2.0,
+          "step": 473.0,
+          "val_loss": 2.9126241207122803,
+          "val_softmax_entropy": 3.9588205814361572,
+          "val_target_entropy": 5.56056022644043,
+          "val_unseen_states": 2.6626086235046387,
+          "val_vap_loss": 2.9126241207122803
+        },
+        {
+          "epoch": 3.0,
+          "step": 631.0,
+          "val_loss": 2.8761274814605713,
+          "val_softmax_entropy": 3.9791007041931152,
+          "val_target_entropy": 5.56056022644043,
+          "val_unseen_states": 2.6626086235046387,
+          "val_vap_loss": 2.8761274814605713
+        },
+        {
+          "epoch": 4.0,
+          "step": 789.0,
+          "val_loss": 2.8525876998901367,
+          "val_softmax_entropy": 3.9875781536102295,
+          "val_target_entropy": 5.56056022644043,
+          "val_unseen_states": 2.6626086235046387,
+          "val_vap_loss": 2.8525876998901367
+        },
+        {
+          "epoch": 5.0,
+          "step": 947.0,
+          "val_loss": 2.8363072872161865,
+          "val_softmax_entropy": 3.990199089050293,
+          "val_target_entropy": 5.56056022644043,
+          "val_unseen_states": 2.6626086235046387,
+          "val_vap_loss": 2.8363072872161865
+        },
+        {
+          "epoch": 6.0,
+          "step": 1105.0,
+          "val_loss": 2.824409008026123,
+          "val_softmax_entropy": 3.9900338649749756,
+          "val_target_entropy": 5.56056022644043,
+          "val_unseen_states": 2.6626086235046387,
+          "val_vap_loss": 2.824409008026123
+        },
+        {
+          "epoch": 7.0,
+          "step": 1263.0,
+          "val_loss": 2.8153228759765625,
+          "val_softmax_entropy": 3.988356351852417,
+          "val_target_entropy": 5.56056022644043,
+          "val_unseen_states": 2.6626086235046387,
+          "val_vap_loss": 2.8153228759765625
+        },
+        {
+          "epoch": 8.0,
+          "step": 1421.0,
+          "val_loss": 2.80815052986145,
+          "val_softmax_entropy": 3.9860904216766357,
+          "val_target_entropy": 5.56056022644043,
+          "val_unseen_states": 2.6626086235046387,
+          "val_vap_loss": 2.80815052986145
+        },
+        {
+          "epoch": 9.0,
+          "step": 1579.0,
+          "val_loss": 2.80234956741333,
+          "val_softmax_entropy": 3.9836301803588867,
+          "val_target_entropy": 5.56056022644043,
+          "val_unseen_states": 2.6626086235046387,
+          "val_vap_loss": 2.80234956741333
+        },
+        {
+          "epoch": 10.0,
+          "step": 1737.0,
+          "val_loss": 2.7975728511810303,
+          "val_softmax_entropy": 3.981003761291504,
+          "val_target_entropy": 5.56056022644043,
+          "val_unseen_states": 2.6626086235046387,
+          "val_vap_loss": 2.7975728511810303
+        },
+        {
+          "epoch": 11.0,
+          "step": 1895.0,
+          "val_loss": 2.7935776710510254,
+          "val_softmax_entropy": 3.9784226417541504,
+          "val_target_entropy": 5.56056022644043,
+          "val_unseen_states": 2.6626086235046387,
+          "val_vap_loss": 2.7935776710510254
+        },
+        {
+          "epoch": 12.0,
+          "step": 2053.0,
+          "val_loss": 2.7901968955993652,
+          "val_softmax_entropy": 3.9757609367370605,
+          "val_target_entropy": 5.56056022644043,
+          "val_unseen_states": 2.6626086235046387,
+          "val_vap_loss": 2.7901968955993652
+        },
+        {
+          "epoch": 13.0,
+          "step": 2211.0,
+          "val_loss": 2.7873051166534424,
+          "val_softmax_entropy": 3.9732396602630615,
+          "val_target_entropy": 5.56056022644043,
+          "val_unseen_states": 2.6626086235046387,
+          "val_vap_loss": 2.7873051166534424
+        },
+        {
+          "epoch": 14.0,
+          "step": 2369.0,
+          "val_loss": 2.784804582595825,
+          "val_softmax_entropy": 3.9708516597747803,
+          "val_target_entropy": 5.56056022644043,
+          "val_unseen_states": 2.6626086235046387,
+          "val_vap_loss": 2.784804582595825
+        },
+        {
+          "epoch": 15.0,
+          "step": 2527.0,
+          "val_loss": 2.7826225757598877,
+          "val_softmax_entropy": 3.968437433242798,
+          "val_target_entropy": 5.56056022644043,
+          "val_unseen_states": 2.6626086235046387,
+          "val_vap_loss": 2.7826225757598877
+        },
+        {
+          "epoch": 16.0,
+          "step": 2685.0,
+          "val_loss": 2.780697822570801,
+          "val_softmax_entropy": 3.966130256652832,
+          "val_target_entropy": 5.56056022644043,
+          "val_unseen_states": 2.6626086235046387,
+          "val_vap_loss": 2.780697822570801
+        },
+        {
+          "epoch": 17.0,
+          "step": 2843.0,
+          "val_loss": 2.7789864540100098,
+          "val_softmax_entropy": 3.9640443325042725,
+          "val_target_entropy": 5.56056022644043,
+          "val_unseen_states": 2.6626086235046387,
+          "val_vap_loss": 2.7789864540100098
+        },
+        {
+          "epoch": 18.0,
+          "step": 3001.0,
+          "val_loss": 2.777451992034912,
+          "val_softmax_entropy": 3.962003231048584,
+          "val_target_entropy": 5.56056022644043,
+          "val_unseen_states": 2.6626086235046387,
+          "val_vap_loss": 2.777451992034912
+        },
+        {
+          "epoch": 19.0,
+          "step": 3159.0,
+          "val_loss": 2.776069402694702,
+          "val_softmax_entropy": 3.9600844383239746,
+          "val_target_entropy": 5.56056022644043,
+          "val_unseen_states": 2.6626086235046387,
+          "val_vap_loss": 2.776069402694702
+        }
+      ],
+      "standard": [
+        {
+          "epoch": 0.0,
+          "step": 157.0,
+          "val_loss": 2.8774914741516113,
+          "val_softmax_entropy": 3.699373722076416,
+          "val_target_entropy": 5.31962251663208,
+          "val_unseen_states": 4.436521530151367,
+          "val_vap_loss": 2.8774914741516113
+        },
+        {
+          "epoch": 1.0,
+          "step": 315.0,
+          "val_loss": 2.7904844284057617,
+          "val_softmax_entropy": 3.7384438514709473,
+          "val_target_entropy": 5.31962251663208,
+          "val_unseen_states": 4.436521530151367,
+          "val_vap_loss": 2.7904844284057617
+        },
+        {
+          "epoch": 2.0,
+          "step": 473.0,
+          "val_loss": 2.7414541244506836,
+          "val_softmax_entropy": 3.768766164779663,
+          "val_target_entropy": 5.31962251663208,
+          "val_unseen_states": 4.436521530151367,
+          "val_vap_loss": 2.7414541244506836
+        },
+        {
+          "epoch": 3.0,
+          "step": 631.0,
+          "val_loss": 2.712212562561035,
+          "val_softmax_entropy": 3.7847347259521484,
+          "val_target_entropy": 5.31962251663208,
+          "val_unseen_states": 4.436521530151367,
+          "val_vap_loss": 2.712212562561035
+        },
+        {
+          "epoch": 4.0,
+          "step": 789.0,
+          "val_loss": 2.693592071533203,
+          "val_softmax_entropy": 3.791476249694824,
+          "val_target_entropy": 5.31962251663208,
+          "val_unseen_states": 4.436521530151367,
+          "val_vap_loss": 2.693592071533203
+        },
+        {
+          "epoch": 5.0,
+          "step": 947.0,
+          "val_loss": 2.6808719635009766,
+          "val_softmax_entropy": 3.7935423851013184,
+          "val_target_entropy": 5.31962251663208,
+          "val_unseen_states": 4.436521530151367,
+          "val_vap_loss": 2.6808719635009766
+        },
+        {
+          "epoch": 6.0,
+          "step": 1105.0,
+          "val_loss": 2.671613931655884,
+          "val_softmax_entropy": 3.793365716934204,
+          "val_target_entropy": 5.31962251663208,
+          "val_unseen_states": 4.436521530151367,
+          "val_vap_loss": 2.671613931655884
+        },
+        {
+          "epoch": 7.0,
+          "step": 1263.0,
+          "val_loss": 2.664536237716675,
+          "val_softmax_entropy": 3.792339563369751,
+          "val_target_entropy": 5.31962251663208,
+          "val_unseen_states": 4.436521530151367,
+          "val_vap_loss": 2.664536237716675
+        },
+        {
+          "epoch": 8.0,
+          "step": 1421.0,
+          "val_loss": 2.6589198112487793,
+          "val_softmax_entropy": 3.79071044921875,
+          "val_target_entropy": 5.31962251663208,
+          "val_unseen_states": 4.436521530151367,
+          "val_vap_loss": 2.6589198112487793
+        },
+        {
+          "epoch": 9.0,
+          "step": 1579.0,
+          "val_loss": 2.6543407440185547,
+          "val_softmax_entropy": 3.7889962196350098,
+          "val_target_entropy": 5.31962251663208,
+          "val_unseen_states": 4.436521530151367,
+          "val_vap_loss": 2.6543407440185547
+        },
+        {
+          "epoch": 10.0,
+          "step": 1737.0,
+          "val_loss": 2.650527238845825,
+          "val_softmax_entropy": 3.7871549129486084,
+          "val_target_entropy": 5.31962251663208,
+          "val_unseen_states": 4.436521530151367,
+          "val_vap_loss": 2.650527238845825
+        },
+        {
+          "epoch": 11.0,
+          "step": 1895.0,
+          "val_loss": 2.64729905128479,
+          "val_softmax_entropy": 3.7852790355682373,
+          "val_target_entropy": 5.31962251663208,
+          "val_unseen_states": 4.436521530151367,
+          "val_vap_loss": 2.64729905128479
+        },
+        {
+          "epoch": 12.0,
+          "step": 2053.0,
+          "val_loss": 2.6445302963256836,
+          "val_softmax_entropy": 3.783325433731079,
+          "val_target_entropy": 5.31962251663208,
+          "val_unseen_states": 4.436521530151367,
+          "val_vap_loss": 2.6445302963256836
+        },
+        {
+          "epoch": 13.0,
+          "step": 2211.0,
+          "val_loss": 2.6421310901641846,
+          "val_softmax_entropy": 3.781306505203247,
+          "val_target_entropy": 5.31962251663208,
+          "val_unseen_states": 4.436521530151367,
+          "val_vap_loss": 2.6421310901641846
+        },
+        {
+          "epoch": 14.0,
+          "step": 2369.0,
+          "val_loss": 2.640029191970825,
+          "val_softmax_entropy": 3.7794034481048584,
+          "val_target_entropy": 5.31962251663208,
+          "val_unseen_states": 4.436521530151367,
+          "val_vap_loss": 2.640029191970825
+        },
+        {
+          "epoch": 15.0,
+          "step": 2527.0,
+          "val_loss": 2.6381750106811523,
+          "val_softmax_entropy": 3.777458906173706,
+          "val_target_entropy": 5.31962251663208,
+          "val_unseen_states": 4.436521530151367,
+          "val_vap_loss": 2.6381750106811523
+        },
+        {
+          "epoch": 16.0,
+          "step": 2685.0,
+          "val_loss": 2.6365299224853516,
+          "val_softmax_entropy": 3.775676727294922,
+          "val_target_entropy": 5.31962251663208,
+          "val_unseen_states": 4.436521530151367,
+          "val_vap_loss": 2.6365299224853516
+        },
+        {
+          "epoch": 17.0,
+          "step": 2843.0,
+          "val_loss": 2.635058879852295,
+          "val_softmax_entropy": 3.773791551589966,
+          "val_target_entropy": 5.31962251663208,
+          "val_unseen_states": 4.436521530151367,
+          "val_vap_loss": 2.635058879852295
+        },
+        {
+          "epoch": 18.0,
+          "step": 3001.0,
+          "val_loss": 2.6337368488311768,
+          "val_softmax_entropy": 3.7722368240356445,
+          "val_target_entropy": 5.31962251663208,
+          "val_unseen_states": 4.436521530151367,
+          "val_vap_loss": 2.6337368488311768
+        },
+        {
+          "epoch": 19.0,
+          "step": 3159.0,
+          "val_loss": 2.632540225982666,
+          "val_softmax_entropy": 3.7704946994781494,
+          "val_target_entropy": 5.31962251663208,
+          "val_unseen_states": 4.436521530151367,
+          "val_vap_loss": 2.632540225982666
+        }
+      ]
+    },
+    "sources": {
+      "adaptive forward": "experiments/vap_adaptive/results/adaptive_forward/1/logs/metrics.csv",
+      "standard": "experiments/vap_adaptive/results/standard/1/logs/metrics.csv"
+    }
+  },
+  "source_data_policy": "saved experiment artifacts only"
+}

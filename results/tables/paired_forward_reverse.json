@@ -1,0 +1,30 @@
+{
+  "comparison": "reverse_minus_forward",
+  "rows": [
+    {
+      "conversation_count": 232,
+      "estimate_reverse_minus_forward": 0.0009302551500604966,
+      "high": 0.0013886724095511622,
+      "low": 0.0005014191142572067,
+      "replicates": 2000,
+      "seed": 1
+    },
+    {
+      "conversation_count": 232,
+      "estimate_reverse_minus_forward": 0.0009302551500604966,
+      "high": 0.0013589566251542681,
+      "low": 0.0004874204177240167,
+      "replicates": 2000,
+      "seed": 2
+    },
+    {
+      "conversation_count": 232,
+      "estimate_reverse_minus_forward": 0.0009302551500604966,
+      "high": 0.0013687584424432356,
+      "low": 0.00047125217476176736,
+      "replicates": 2000,
+      "seed": 3
+    }
+  ],
+  "status": "pass"
+}

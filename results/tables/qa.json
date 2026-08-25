@@ -1,0 +1,22 @@
+{
+  "bootstrap_replicates": 2000,
+  "failure_reasons": [
+    "floor sensitivity status: failed_resource_gate",
+    "full-model one-batch pilot passed, but the declared 20-epoch LR scan and four-condition three-seed comparison were not launched within the approved execution window"
+  ],
+  "run_count": 18,
+  "seeds": [
+    1,
+    2,
+    3
+  ],
+  "settings": [
+    "standard",
+    "uniform_lower",
+    "fixed_per_bin",
+    "adaptive_forward",
+    "adaptive_reverse",
+    "extreme"
+  ],
+  "status": "partial"
+}

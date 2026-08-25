@@ -1,0 +1,17 @@
+{
+  "status": "pass",
+  "expected_steps_min": 1000,
+  "expected_test_batches": 19,
+  "run_count": 18,
+  "settings": [
+    "standard",
+    "uniform_lower",
+    "fixed_per_bin",
+    "adaptive_forward",
+    "adaptive_reverse",
+    "extreme"
+  ],
+  "seeds": [1, 2, 3],
+  "valid_full_data_runs": 18,
+  "checkpoint_paths": "omitted from public package"
+}
