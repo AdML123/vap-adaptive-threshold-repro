@@ -54,7 +54,8 @@ require the restricted source data for inspection.
 
 ## Citation and release
 
-Please cite the repository using CITATION.cff. A Zenodo DOI will be added to
+Please cite the repository using CITATION.cff. The current public release is
+tagged v0.1.1. A Zenodo DOI will be added to
 this file and to the README only after the GitHub release has been archived by
 Zenodo. No DOI is claimed before that archive step.
 
